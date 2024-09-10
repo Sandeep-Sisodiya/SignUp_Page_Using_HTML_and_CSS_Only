@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left ,green,white,orange);
+}
+.inner-box{
+    width: 400px;
+    margin: auto;
+    position: relative;
+    top: 42%;
+    transform: translateY(-50%);
+    /* abobe thing is very very very very imp technique to centre anything */
+    padding: 20px 40px;
+    background: linear-gradient(to top left,#ffffffff, #ffffff33);
+    backdrop-filter: 8px;
+    /* background-color: white; */
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #27648d ;
+    /* border: 2px solid black; */
+    z-index: 2;
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #212121;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.signup-header p{
+    font-size: 0.95rem;
+    color: #3f3d3d;
+    margin-top: 5px;
+}
+.signup-body{
+    margin: 20px 0px;
+
+}
+.signup-body p{
+    margin: 10px 0px;
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+    border: 2px solid #6b5050cc;
+    border-radius: 4px;
+    font-size: .96rem;
+    margin-top: 6px;
+}
+
+.signup-body p input[type="submit"]{
+    background-color: #377aa6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    border: none;
+    color: white;
+    cursor:pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: #27648d;
+}
+.signup-footer p{
+    color: #555;
+    text-align: center;
+}
+
+.signup-footer p a{
+    color: #27648d;
+    margin-left: 10px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,#ffffff33,#ffffffff);
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 190%;
+    top: 70%;
+}
+.c2{
+    bottom: 200px;
+    right: 190%;
+    top: -0%;
+    bottom: 100%;
+}
+
+
+
+
+
